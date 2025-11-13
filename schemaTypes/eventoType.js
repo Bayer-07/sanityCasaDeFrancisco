@@ -19,7 +19,8 @@ export const eventoType = defineType({
     }),
     defineField({
       name: 'descricao',
-      type: 'string',
+      type: 'array',
+      of: [{ type: 'block' }],
     }),
     defineField({
       name: 'imagem1',
