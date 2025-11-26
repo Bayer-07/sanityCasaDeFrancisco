@@ -20,10 +20,6 @@ export const terceiroTextoType = defineType({
     defineField({
       name: 'textoMaior',
       type: 'string',
-    }),
-    defineField({
-      name: 'imagem',
-      type: 'image',
     })
   ],
 })
