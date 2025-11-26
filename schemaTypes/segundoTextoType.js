@@ -11,8 +11,7 @@ export const segundoTextoType = defineType({
     }),
     defineField({
       name: 'texto',
-      type: 'array',
-      of: [{ type: 'block' }],
+      type: 'string',
     }),
     defineField({
       name: 'imagem',

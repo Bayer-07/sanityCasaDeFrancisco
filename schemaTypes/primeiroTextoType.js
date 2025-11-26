@@ -6,17 +6,12 @@ export const primeiroTextoType = defineType({
   type: 'document',
   fields: [
     defineField({
-      name: 'titulo',
-      type: 'string',
-    }),
-    defineField({
       name: 'texto',
-      type: 'array',
-      of: [{ type: 'block' }],
+      type: 'string',
     }),
     defineField({
-      name: 'fraseDeEfeito',
-      type: 'string',
+      name: 'img',
+      type: 'image',
     })
   ],
 })

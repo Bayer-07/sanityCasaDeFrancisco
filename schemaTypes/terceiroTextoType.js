@@ -6,18 +6,20 @@ export const terceiroTextoType = defineType({
   type: 'document',
   fields: [
     defineField({
-      name: 'titulo',
+      name: 'textMenor',
       type: 'string',
     }),
     defineField({
-      name: 'textMenor',
-      type: 'array',
-      of: [{ type: 'block' }],
+      name: 'tituloMenor',
+      type: 'string',
+    }),
+    defineField({
+      name: 'tituloMaior',
+      type: 'string',
     }),
     defineField({
       name: 'textoMaior',
-      type: 'array',
-      of: [{ type: 'block' }],
+      type: 'string',
     }),
     defineField({
       name: 'imagem',
